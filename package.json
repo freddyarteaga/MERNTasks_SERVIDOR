@@ -4,7 +4,8 @@
   "description": "MERNAPI para MERNTASKS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "author": "Freddy Arteaga",
   "license": "ISC",
