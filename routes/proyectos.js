@@ -15,8 +15,8 @@ router.post('/',
 )
 
 router.get('/',
-auth,
-proyectoController.crearProyecto
+    auth,
+    proyectoController.obtenerProyectos
 )
 
 
