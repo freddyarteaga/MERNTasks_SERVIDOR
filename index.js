@@ -21,6 +21,10 @@ app.use(cors())
 // Habilitar express.json
 app.use( express.json({ extended: true }) )
 
+//habilitar cors
+app.use(cors({ credentials: true, origin: true }));
+app.options("*", cors());
+
 // puerto de la app
 const port = process.env.PORT || 4000;
 
